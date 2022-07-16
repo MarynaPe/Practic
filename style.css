@@ -93,6 +93,7 @@ main {
 .pre_fonts {
    background-color: rgb(182, 188, 188);
    overflow: hidden;
+   padding: 25px;
    margin: 0px auto;
    border: 3px solid rgb(69, 211, 26);
    font-family: 'Georgia', italic, san-serif;
