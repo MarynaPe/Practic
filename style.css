@@ -77,14 +77,34 @@ body {
    background-color: darkgray;
 }
 
-/* .wrapper {
+.wrapper {
    min-height: 100%;
    overflow: hidden;
-}*/
+}
 
 /* ------------------------------ */
 
+main {
+   background-color: rgb(20, 117, 117);
+   margin: 20px 20px 20px 20px;
+   border: 3px solid red;
+}
+
+.pre_fonts {
+   background-color: rgb(182, 188, 188);
+   overflow: hidden;
+   margin: 0px auto;
+   border: 3px solid rgb(69, 211, 26);
+   font-family: 'Georgia', italic, san-serif;
+   line-height: 2;
+
+}
+
+
 h1 {
+   padding: 0px 0px 0px 0px;
+   margin: 20px 20px 20px 20px;
+   border: 3px solid rgb(81, 0, 255);
    color: brown;
    font-size: 28px;
    font-family: 'Georgia', san-serif;
@@ -99,11 +119,17 @@ h3 {
    text-align: center;
 }
 
-.pre_fonts {
-   font-family: 'Georgia', italic, san-serif;
-   line-height: 1.5;
-}
 
 .span_color {
    color: rgb(16, 40, 69);
+}
+
+.span_color1 {
+   box-sizing: border-box;
+   margin: 15px;
+   border: 3px solid rgb(69, 211, 26);
+   display: block;
+   color: rgb(16, 40, 69);
+   width: 650px;
+   background-color: chartreuse;
 }
