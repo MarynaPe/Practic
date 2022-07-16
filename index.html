@@ -6,68 +6,75 @@
    <meta charset="UTF-8"> <!-- Кодировка Символов -->
    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Мост от Internet Explorer к Microsoft Edge -->
    <link rel="stylesheet" href="style.css"> <!-- Подключение файла css по ссылке link -->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптив -->
    <!-- <style> div{color:red;}</style> подключает css без доп.файла сразу в html -->
    <title>Конспект</title>
+
 </head>
 
 <body>
    <div class="wrapper">
       <!-- wrapper это предохранитель от горизонтального скролла, но body эта свойство нельзя присваивать, 
       иначе пропадет и вертикальный скролл и мы потеряем доступ ко всему содержимому страницы -->
+      <!-- ! Контент -->
+
       <h1>Конспект по Вёрстке</h1>
       <header>
          <nav>
 
          </nav>
       </header>
+
       <main>
          <!-- ! Каркас HTML -->
 
          <h3>Каркас HTML</h3>
          <pre class="pre_fonts">
-      <b> &lt;DOCTYPE html &gt;</b>
-      <b> &lt;html lang="en"&gt; </b> <span class="span_color"> &lt;! -- Язык основного содержимого (контента) страницы -- &gt;</span> 
-         <b> &lt;head&gt;</b>
-                 <b> &lt;meta charset="UTF-8"&gt;</b>  <span class="span_color">&lt;!-- Кодировка Символов --&gt;</span>
-                 <b> &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; </b> <span class="span_color">&lt;!-- Мост от Internet Explorer к Microsoft Edge --&gt;</span>
-                 <b> &lt;link rel="stylesheet" href="css/style.css"&gt;</b><span class="span_color">&lt;!-- Подключение файла css по ссылке link --&gt;</span>
-                 <b> &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</b>
-                 <span class="span_color"> &lt;!-- &lt;style&gt; div{color:red;}&lt;/style&gt; подключает css без доп.файла сразу в html --&gt; </span>
-                 <b> &lt;title&gt;Конспект&lt;/title&gt;</b>
-         <b> &lt;/head&gt;</b>
-         <b> &lt;body&gt;</b>
-         <b> &lt;div class="wrapper"&gt;</b> <span class="span_color">&lt;!-- wrapper это предохранитель от горизонтального скролла, но body эта свойство нельзя присваивать, 
-                                 иначе пропадет и вертикальный скролл и мы потеряем доступ ко всему содержимому страницы --&gt; </span>
-            <b> &lt;h1&gt;Конспект по Вёрстке&lt;/h1&gt;</b>
+   <b> &lt;DOCTYPE html &gt;</b> <span class="span_color">&lt;--Сообщаем браузеру как стоит обрабатывать эту страницу--&gt;</span> 
+   <b> &lt;html lang="en"&gt; </b> <span class="span_color"> &lt;! -- Язык основного содержимого (контента) страницы -- &gt;</span>  
+   <b> &lt;head&gt;</b> <span class="span_color"> &lt;! -- Заголовок страницы, контейнер для других важных данных (не отображается) -- &gt;</span>
+      <b> &lt;meta charset="UTF-8"&gt;</b>  <span class="span_color">&lt;!-- Кодировка Символов --&gt;</span>
+      <b> &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; </b> <span class="span_color">&lt;!-- Мост от Internet Explorer к Microsoft Edge --&gt;</span>
+      <b> &lt;link rel="stylesheet" href="css/style.css"&gt;</b><span class="span_color">&lt;!-- Подключение файла css по ссылке link --&gt;</span>
+      <b> &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</b><span class="span_color">&lt;!--  Адаптив --&gt;</span>
+                <span class="span_color">&lt;!--&lt;style&gt; div{color:red;}&lt;/style&gt; подключает css без доп.файла сразу в html --&gt; </span>
+   <b> &lt;title&gt;Конспект&lt;/title&gt;</b>
+   <b> &lt;/head&gt;</b>
+   <b> &lt;body&gt;</b><span class="span_color">&lt;!--Отображаемое тело страницы--&gt;</span>
+         <b> &lt;div class="wrapper"&gt;</b> <span class="span_color1">    &lt;!-- wrapper это предохранитель от горизонтального скролла, 
+    но body эта свойство нельзя присваивать, иначе пропадет и вертикальный скролл и 
+            мы потеряем доступ ко всему содержимому страницы --&gt; </span>
+         <b> &lt;h1&gt;Конспект по Вёрстке&lt;/h1&gt;</b>
 
-            <b> &lt;header&gt;</b>
+   <b> &lt;header&gt;</b>
 
-               <b> &lt;nav&gt;</b>
+      <b> &lt;nav&gt;</b>
 
-               <b> &lt;/nav&gt;</b>
+      <b> &lt;/nav&gt;</b>
 
-            <b> &lt;/header&gt;</b>
+   <b> &lt;/header&gt;</b>
 
-         <b> &lt;main&gt;</b>
-               <b> &lt;div&gt;</b>
-               <b> &lt;h3&gt;Каркас HTML&lt;/h3&gt;</b>
-               <b> &lt;p&gt;</b>
-               <b> &lt;/p&gt;</b>
-               <b> &lt;/div&gt;</b>
+   <b> &lt;main&gt;</b>
+         <b> &lt;div&gt;</b>
+         <b> &lt;h3&gt;Каркас HTML&lt;/h3&gt;</b>
+         <b> &lt;p&gt;</b>        <span class="span_color">&lt;Блочные теги выстраиваются блоками&gt;</span> 
+         <b> &lt;/p&gt;</b> 
+         <b> &lt;span&gt;</b>  <span class="span_color">&lt;Строчные теги выстраиваются друг за другом&gt;</span> 
+         <b> &lt;/span&gt;</b>
+         <b> &lt;/div&gt;</b>
 
-         <b> &lt;/main &gt;</b>
+   <b> &lt;/main &gt;</b>
 
-            <b> &lt;footer&gt;</b>
-            <b> &lt;/footer&gt;</b>
+   <b> &lt;footer&gt;</b>
+   <b> &lt;/footer&gt;</b>
 
-         <b> &lt; /div &gt;</b>
+   <b> &lt; /div &gt;</b>
 
-         <b> &lt; /body &gt;</b>
+   <b> &lt; /body &gt;</b>
 
-         <b> &lt; /html &gt; </b>
+   <b> &lt; /html &gt; </b>
               
-         </pre>
+   </pre>
 
       </main>
       <footer>
